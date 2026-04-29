@@ -1,0 +1,283 @@
+/* FUENTES ELEGANTES */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=UnifrakturMaguntia&display=swap');
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONDO OSCURO ELEGANTE */
+body {
+  background-color: rgb(240, 240, 240);
+  background-size: cover;
+  /* cubre toda la pantalla */
+  background-position: center;
+  /* centrada */
+  background-repeat: no-repeat;
+  /* no se repita */
+  background-attachment: fixed;
+  background-image: url("imagenes/fondomarmoltransparente.png");
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  padding: 40px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+  max-width: 950px;
+  margin: auto;
+  background: #1a1a1a;
+  padding: 35px;
+  /* más compacto */
+  border: 1px solid #c6a75e;
+  /* dorado */
+  box-shadow: 0 0 40px rgba(53, 40, 9, 0.2);
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+  text-align: center;
+  font-family: 'UnifrakturMaguntia', 'Gravitas One', serif;
+  font-size: 52px;
+  color: #B1C809;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  /* más compacto */
+}
+
+/* SUBTÍTULOS CATEGORÍAS */
+main h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: #c6a75e;
+  margin-top: 30px;
+  /* antes 50px */
+  margin-bottom: 15px;
+  /* antes 25px */
+  border-bottom: 1px solid #333;
+  padding-bottom: 6px;
+  /* antes 10px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* CADA PLATO */
+li {
+  list-style: none;
+  padding: 12px 0;
+  /* antes 20px */
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* NOMBRE DEL PLATO */
+li h2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 6px;
+  /* antes 8px */
+}
+
+/* DESCRIPCIÓN */
+li p {
+  font-size: 14px;
+  color: #bbbbbb;
+  margin: 2px 0;
+  /* antes 4px */
+  font-weight: 300;
+}
+
+/* PRECIO ESTILO RESTAURANTE TOP */
+li p:last-child {
+  font-size: 18px;
+  font-weight: 500;
+  color: #c6a75e;
+  text-align: right;
+  margin-top: 6px;
+  /* antes 8px */
+}
+
+/* NAV */
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.navindex {
+  list-style: none;
+  /*outline: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+
+#nav,
+nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+#nav a,
+.navindexitem {
+  text-decoration: none;
+  color: #c6a75e;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  color: #571f1f;
+  font-size: 20px;
+  ;
+}
+
+
+#nav a:hover {
+  color: #7555e7;
+}
+
+/* Contenedor grid para 2 columnas x 2 filas */
+.carta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* 2 columnas iguales */
+  gap: 40px;
+  /* espacio entre columnas y filas */
+}
+
+/* Cada sección de categoría */
+.carta-categoria {
+  background: #1a1a1a;
+  padding: 25px;
+  border: 1px solid #c6a75e;
+  box-shadow: 0 0 30px rgba(198, 167, 94, 0.15);
+}
+
+/* Ajustes responsive: 1 columna en pantallas pequeñas */
+@media (max-width: 900px) {
+  .carta-grid {
+    grid-template-columns: 1fr;
+    /* una columna */
+  }
+}
+
+.formularios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Contenedor general */
+#formularios {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Cada formulario como bloque/tarjeta */
+#formularios form {
+  background-color: #000000;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+}
+
+/* Etiquetas */
+#formularios label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Inputs y select */
+#formularios input,
+#formularios select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Botones */
+#formularios input[type="submit"] {
+  margin-top: 15px;
+  background-color: #e5952c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+input[type="reset"] {
+  margin-top: 15px;
+  background-color: #e5422c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  #formularios input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #1a5fc1;
+  }
+}
+
+#validacion {
+  color: coral;
+}
+
+/* BOT�N FLOTANTE VOLVER */
+.navindexcarta {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #c6a75e;
+  color: #1a1a1a !important;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  border: 1px solid #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navindexcarta:hover {
+  transform: translateY(-5px);
+  background-color: #B1C809;
+  box-shadow: 0 6px 20px rgba(177, 200, 9, 0.4);
+}
+
+.navindexcarta::before {
+
+  font-size: 18px;
+}

@@ -1,0 +1,304 @@
+{
+    "primero": [
+        {
+            "nombre": "Ensalada Caprese",
+            "ingredientes": "Tomate,Mozzarella,Albahaca,Aceite de oliva",
+            "alergenos": "Lácteos",
+            "precio": "8€",
+            "activo": 1
+        },
+        {
+            "nombre": "Bruschetta clásica",
+            "ingredientes": "Pan,Tomate,Ajo,Aceite de oliva",
+            "alergenos": "Gluten",
+            "precio": "6€",
+            "activo": 1
+        },
+        {
+            "nombre": "Carpaccio de ternera",
+            "ingredientes": "Ternera,Parmesano,Rúcula,Aceite de oliva",
+            "alergenos": "Lácteos",
+            "precio": "12€",
+            "activo": 1
+        },
+        {
+            "nombre": "Vitello tonnato",
+            "ingredientes": "Ternera,Atún,Mayonesa,Alcaparras",
+            "alergenos": "Huevo,Pescado",
+            "precio": "13€",
+            "activo": 1
+        },
+        {
+            "nombre": "Provolone al horno",
+            "ingredientes": "Queso provolone,Tomate,Orégano",
+            "alergenos": "Lácteos",
+            "precio": "9€",
+            "activo": 1
+        },
+        {
+            "nombre": "Focaccia",
+            "ingredientes": "Harina,Aceite de oliva,Romero,Sal",
+            "alergenos": "Gluten",
+            "precio": "5€",
+            "activo": 1
+        },
+        {
+            "nombre": "Ensalada César",
+            "ingredientes": "Lechuga,Pollo,Pan tostado,Parmesano,Salsa César",
+            "alergenos": "Gluten,Lácteos,Huevo,Pescado",
+            "precio": "10€",
+            "activo": 1
+        },
+        {
+            "nombre": "Antipasto italiano",
+            "ingredientes": "Jamón,Salami,Queso,Aceitunas",
+            "alergenos": "Lácteos",
+            "precio": "14€",
+            "activo": 1
+        },
+        {
+            "nombre": "Burrata con pesto",
+            "ingredientes": "Burrata,Pesto,Tomate cherry",
+            "alergenos": "Lácteos,Frutos secos",
+            "precio": "11€",
+            "activo": 1
+        },
+        {
+            "nombre": "Sopa minestrone",
+            "ingredientes": "Verduras,Pasta,Caldo",
+            "alergenos": "Gluten,Apio",
+            "precio": "7€",
+            "activo": 0
+        },
+        {
+            "nombre": "Piadina Romagnola",
+            "ingredientes": "Harina,Agua,Sal,Manteca,Emmental,Espinacas",
+            "alergenos": "Gluten,Lácteos",
+            "precio": "10€",
+            "activo": 1
+        }
+    ],
+    "segundo": [
+        {
+            "nombre": "Pizza Margherita",
+            "ingredientes": "Harina,Tomate,Mozzarella,Albahaca",
+            "alergenos": "Gluten,Lácteos",
+            "precio": "9€",
+            "activo": 1
+        },
+        {
+            "nombre": "Pizza Quattro Formaggi",
+            "ingredientes": "Harina,Mozzarella,Gorgonzola,Parmesano,Provolone",
+            "alergenos": "Gluten,Lácteos",
+            "precio": "12€",
+            "activo": 1
+        },
+        {
+            "nombre": "Pizza Frutti di Mare",
+            "ingredientes": "Harina,Tomate,Mariscos,Mozzarella",
+            "alergenos": "Gluten,Lácteos,Crustáceos,Moluscos",
+            "precio": "15€",
+            "activo": 1
+        },
+        {
+            "nombre": "Lasagna",
+            "ingredientes": "Pasta,Carne,Bechamel,Queso",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "11€",
+            "activo": 1
+        },
+        {
+            "nombre": "Spaghetti Carbonara",
+            "ingredientes": "Pasta,Huevo,Queso,Guanciale",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "12€",
+            "activo": 1
+        },
+        {
+            "nombre": "Tagliatelle al pesto",
+            "ingredientes": "Pasta,Pesto,Parmesano",
+            "alergenos": "Gluten,Lácteos,Frutos secos",
+            "precio": "11€",
+            "activo": 1
+        },
+        {
+            "nombre": "Risotto ai funghi",
+            "ingredientes": "Arroz,Champiñones,Parmesano,Caldo",
+            "alergenos": "Lácteos,Apio",
+            "precio": "13€",
+            "activo": 1
+        },
+        {
+            "nombre": "Ravioli ricotta y espinaca",
+            "ingredientes": "Pasta,Ricotta,Espinaca",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "12€",
+            "activo": 1
+        },
+        {
+            "nombre": "Gnocchi al gorgonzola",
+            "ingredientes": "Patata,Harina,Gorgonzola",
+            "alergenos": "Gluten,Lácteos",
+            "precio": "12€",
+            "activo": 1
+        },
+        {
+            "nombre": "Pollo alla parmigiana",
+            "ingredientes": "Pollo,Pan rallado,Tomate,Queso",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "14€",
+            "activo": 1
+        },
+        {
+            "nombre": "Osso Buco",
+            "ingredientes": "Gambucio de ternera,Tomate,Caldo,Verduras,Especias",
+            "alergenos": "Lácteos",
+            "precio": "18€",
+            "activo": 1
+        }
+    ],
+    "postre": [
+        {
+            "nombre": "Tiramisú",
+            "ingredientes": "Bizcocho,Café,Mascarpone,Huevo",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "7€",
+            "activo": 1
+        },
+        {
+            "nombre": "Panna Cotta",
+            "ingredientes": "Nata,Azúcar,Gelatina",
+            "alergenos": "Lácteos",
+            "precio": "6€",
+            "activo": 1
+        },
+        {
+            "nombre": "Cannoli",
+            "ingredientes": "Harina,Ricotta,Chocolate",
+            "alergenos": "Gluten,Lácteos",
+            "precio": "7€",
+            "activo": 1
+        },
+        {
+            "nombre": "Gelato",
+            "ingredientes": "Leche,Azúcar,Saborizantes",
+            "alergenos": "Lácteos",
+            "precio": "5€",
+            "activo": 1
+        },
+        {
+            "nombre": "Profiteroles",
+            "ingredientes": "Harina,Huevo,Nata,Chocolate",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "8€",
+            "activo": 1
+        },
+        {
+            "nombre": "Tarta de almendra",
+            "ingredientes": "Almendra,Huevo,Azúcar",
+            "alergenos": "Huevo,Frutos secos",
+            "precio": "7€",
+            "activo": 1
+        },
+        {
+            "nombre": "Semifreddo",
+            "ingredientes": "Nata,Huevo,Azúcar",
+            "alergenos": "Lácteos,Huevo",
+            "precio": "6€",
+            "activo": 1
+        },
+        {
+            "nombre": "Crostata",
+            "ingredientes": "Harina,Mantequilla,Huevo,Mermelada",
+            "alergenos": "Gluten,Lácteos,Huevo",
+            "precio": "6€",
+            "activo": 1
+        },
+        {
+            "nombre": "Tarta de pistacho",
+            "ingredientes": "Pistacho,Harina,Huevo,Nata",
+            "alergenos": "Gluten,Lácteos,Huevo,Frutos secos",
+            "precio": "8€",
+            "activo": 1
+        },
+        {
+            "nombre": "Affogato",
+            "ingredientes": "Café,Helado de vainilla",
+            "alergenos": "Lácteos",
+            "precio": "5€",
+            "activo": 1
+        }
+    ],
+    "bebida": [
+        {
+            "nombre": "Vino tinto",
+            "ingredientes": "Uva",
+            "alergenos": "Sulfitos",
+            "precio": "15€",
+            "activo": 1
+        },
+        {
+            "nombre": "Vino blanco",
+            "ingredientes": "Uva",
+            "alergenos": "Sulfitos",
+            "precio": "15€",
+            "activo": 1
+        },
+        {
+            "nombre": "Prosecco",
+            "ingredientes": "Uva",
+            "alergenos": "Sulfitos",
+            "precio": "18€",
+            "activo": 1
+        },
+        {
+            "nombre": "Cerveza italiana",
+            "ingredientes": "Malta,Agua,Lúpulo",
+            "alergenos": "Gluten",
+            "precio": "5€",
+            "activo": 1
+        },
+        {
+            "nombre": "Agua mineral",
+            "ingredientes": "Agua",
+            "alergenos": "",
+            "precio": "3€",
+            "activo": 1
+        },
+        {
+            "nombre": "Refresco",
+            "ingredientes": "Agua carbonatada,Azúcar",
+            "alergenos": "",
+            "precio": "4€",
+            "activo": 1
+        },
+        {
+            "nombre": "Limoncello",
+            "ingredientes": "Limón,Alcohol,Azúcar",
+            "alergenos": "",
+            "precio": "6€",
+            "activo": 1
+        },
+        {
+            "nombre": "Aperol Spritz",
+            "ingredientes": "Aperol,Prosecco,Soda",
+            "alergenos": "Sulfitos",
+            "precio": "8€",
+            "activo": 1
+        },
+        {
+            "nombre": "Café espresso",
+            "ingredientes": "Café",
+            "alergenos": "",
+            "precio": "2€",
+            "activo": 1
+        },
+        {
+            "nombre": "Cappuccino",
+            "ingredientes": "Café,Leche",
+            "alergenos": "Lácteos",
+            "precio": "3€",
+            "activo": 1
+        }
+    ]
+}
